@@ -1,0 +1,13 @@
+.main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.modalContainer {
+  position: absolute;
+  top: 10%;
+}

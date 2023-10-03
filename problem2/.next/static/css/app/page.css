@@ -1,0 +1,188 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/app/pages/SwapForm/styles.module.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_formContainer___obY0 {
+  margin-top: 10%;
+  padding: 1rem;
+  border-radius: 0.6rem;
+  border: 1px solid #dee2e6;
+  box-shadow: -1px 10px 143px -16px rgba(193, 1, 129, 0.46);
+  width: 30rem;
+}
+.styles_formContainer___obY0 .styles_inputContainer__odk8e {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #dee2e6;
+  padding: 0.5rem;
+  border-radius: 0.6rem;
+  width: 100%;
+  height: 5rem;
+}
+.styles_formContainer___obY0 .styles_inputContainer__odk8e input {
+  border: none;
+  background-color: transparent;
+  height: 5rem;
+  font-size: 2.5rem;
+  color: #060709;
+}
+.styles_formContainer___obY0 .styles_inputContainer__odk8e input:focus {
+  outline: none;
+}
+.styles_formContainer___obY0 .styles_inputContainer__odk8e input::placeholder {
+  font-size: 2.5rem;
+}
+.styles_formContainer___obY0 .styles_inputContainer__odk8e .styles_dropdownContainer__xl6Cz {
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0.2rem;
+  background-color: #f8f9fa;
+  border-radius: 0.6rem;
+  font-size: 1.25rem;
+}
+.styles_formContainer___obY0 .styles_inputContainer__odk8e .styles_dropdownContainer__xl6Cz .styles_currencyContainer__hvYqp {
+  display: flex;
+  align-items: center;
+  color: #060709;
+}
+.styles_formContainer___obY0 .styles_inputContainer__odk8e .styles_dropdownContainer__xl6Cz .styles_currencyContainer__hvYqp p {
+  font-weight: 600;
+  margin-right: 0.5rem;
+}
+.styles_formContainer___obY0 .styles_inputContainer__odk8e .styles_dropdownContainer__xl6Cz .styles_currencyContainer__hvYqp img {
+  margin: 0.1rem 0.3rem;
+}
+.styles_formContainer___obY0 .styles_inputContainer__odk8e .styles_dropdownContainer__xl6Cz:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.styles_formContainer___obY0 .styles_break__brczD {
+  margin: 1rem 0;
+}
+.styles_formContainer___obY0 input::-webkit-outer-spin-button,
+.styles_formContainer___obY0 input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.styles_formContainer___obY0 button {
+  border: none;
+  background-color: #c10181;
+  color: #f8f9fa;
+  width: 100%;
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  border-radius: 0.6rem;
+  margin-top: 1rem;
+}
+.styles_formContainer___obY0 button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.styles_formContainer___obY0 .styles_errorMsg__0Hpnw {
+  color: red;
+  margin-top: 1rem;
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/app/pages/SwapForm/components/SelectCurrencyModal/styles.module.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_modalContainer__9YvlJ {
+  background-color: #f8f9fa;
+  border-radius: 0.6rem;
+  width: 30rem;
+}
+.styles_modalContainer__9YvlJ .styles_header__bd8rQ {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem 0 1rem;
+}
+.styles_modalContainer__9YvlJ .styles_header__bd8rQ p {
+  font-weight: 600;
+  color: #060709;
+}
+.styles_modalContainer__9YvlJ .styles_header__bd8rQ button {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  color: #060709;
+}
+.styles_modalContainer__9YvlJ .styles_header__bd8rQ button:hover {
+  cursor: pointer;
+  color: #c10181;
+}
+.styles_modalContainer__9YvlJ .styles_searchField__JoV0r {
+  display: flex;
+  align-items: center;
+  border: 1px solid #dee2e6;
+  border-radius: 0.6rem;
+  padding: 0.5rem;
+  margin: 1rem;
+  color: #060709;
+}
+.styles_modalContainer__9YvlJ .styles_searchField__JoV0r input {
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  margin-left: 0.5rem;
+  font-size: 1.1rem;
+  color: #060709;
+}
+.styles_modalContainer__9YvlJ .styles_searchField__JoV0r input::placeholder {
+  font-size: 1.1rem;
+}
+.styles_modalContainer__9YvlJ .styles_searchField__JoV0r input:focus {
+  outline: none;
+}
+.styles_modalContainer__9YvlJ .styles_listToken__nOw0Y {
+  height: 30rem;
+  overflow-y: scroll;
+}
+.styles_modalContainer__9YvlJ .styles_listToken__nOw0Y .styles_coinFieldContainer__4czyS {
+  display: flex;
+  padding: 1rem 0;
+  border-top: 1px solid #dee2e6;
+}
+.styles_modalContainer__9YvlJ .styles_listToken__nOw0Y .styles_coinFieldContainer__4czyS img {
+  width: 2.5rem;
+  margin-left: 1rem;
+}
+.styles_modalContainer__9YvlJ .styles_listToken__nOw0Y .styles_coinFieldContainer__4czyS .styles_nameContainer__PuFA8 {
+  margin-left: 1rem;
+}
+.styles_modalContainer__9YvlJ .styles_listToken__nOw0Y .styles_coinFieldContainer__4czyS .styles_nameContainer__PuFA8 .styles_title__IPAMk {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #060709;
+}
+.styles_modalContainer__9YvlJ .styles_listToken__nOw0Y .styles_coinFieldContainer__4czyS .styles_nameContainer__PuFA8 .styles_desc__UOCQ0 {
+  font-size: 0.8rem;
+  color: #646668;
+  margin-top: 0.2rem;
+}
+.styles_modalContainer__9YvlJ .styles_listToken__nOw0Y .styles_coinFieldContainer__4czyS:hover {
+  cursor: pointer;
+  background-color: #dee2e6;
+}
+.styles_modalContainer__9YvlJ .styles_listToken__nOw0Y::-webkit-scrollbar {
+  display: none;
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/page.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+.page_main__GlU4n {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.page_modalContainer__40S5e {
+  position: absolute;
+  top: 10%;
+}
+

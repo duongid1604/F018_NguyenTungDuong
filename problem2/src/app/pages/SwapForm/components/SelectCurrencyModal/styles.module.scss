@@ -1,0 +1,98 @@
+@import "../../../../constants/colors.module.scss";
+
+.modalContainer {
+  background-color: $softWhite;
+  border-radius: $defaultRadius;
+  width: 30rem;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem 0 1rem;
+
+    p {
+      font-weight: 600;
+      color: $softBlack;
+    }
+
+    button {
+      display: flex;
+      align-items: center;
+      background-color: transparent;
+      border: none;
+      color: $softBlack;
+
+      &:hover {
+        cursor: pointer;
+        color: $primary;
+      }
+    }
+  }
+
+  .searchField {
+    display: flex;
+    align-items: center;
+    border: 1px solid $secondary;
+    border-radius: $defaultRadius;
+    padding: 0.5rem;
+    margin: 1rem;
+    color: $softBlack;
+
+    input {
+      border: none;
+      background-color: transparent;
+      width: 100%;
+      margin-left: 0.5rem;
+      font-size: 1.1rem;
+      color: $softBlack;
+
+      &::placeholder {
+        font-size: 1.1rem;
+      }
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+  .listToken {
+    height: 30rem;
+    overflow-y: scroll;
+
+    .coinFieldContainer {
+      display: flex;
+      padding: 1rem 0;
+      border-top: 1px solid $secondary;
+
+      img {
+        width: 2.5rem;
+        margin-left: 1rem;
+      }
+
+      .nameContainer {
+        margin-left: 1rem;
+
+        .title {
+          font-size: 1.1rem;
+          font-weight: 500;
+          color: $softBlack;
+        }
+
+        .desc {
+          font-size: 0.8rem;
+          color: $customGrey;
+          margin-top: 0.2rem;
+        }
+      }
+
+      &:hover {
+        cursor: pointer;
+        background-color: $secondary;
+      }
+    }
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}
